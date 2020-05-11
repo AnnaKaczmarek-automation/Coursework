@@ -47,11 +47,7 @@ class TestingMobileApp(unittest.TestCase):
 
         self.driver.find_elements_by_class_name("android.widget.Button")
 
-    # def test_fill_form(self):
-    #     self.driver.find_element_by_accessibility_id("Add Contact").click()
-    #     self.driver.find_element_by_id("com.example.android.contactmanager:id/contactNameEditText").send_keys("Anna")
-    #     self.driver.find_element_by_id("com.example.android.contactmanager:id/contactPhoneEditText").send_keys("524598740")
-    #     self.driver.find_element_by_id("com.example.android.contactmanager:id/contactEmailEditText").send_keys("aniaAnia@gmail.com")
+   
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestingMobileApp)
